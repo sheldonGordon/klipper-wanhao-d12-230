@@ -25,7 +25,7 @@ Ensuite télécharger [balena etcher](https://etcher.balena.io/) ou [raspberry i
 
 Il est maintenant temps d'écrire l'image du CB1 sur vôtre micro sd.
 Connecter vôtre micro sd au pc, puis lancer balena etcher ou raspberry imager, pour mon cas le deuxième fois à très bien fonctionné.
-![raspberry imager](./images/raspberryImager.png)
+![alt raspberry_imager](./images/raspberryImager.PNG)
 
 ## Installation de klipper sur un vieux pc
 
