@@ -24,10 +24,16 @@ Pour commencer il faut télécharger la dernière image officiel du [CB1](https:
 Ensuite télécharger [balena etcher](https://etcher.balena.io/) ou [raspberry imager](https://www.raspberrypi.com/software/)
 
 Il est maintenant temps d'écrire l'image du CB1 sur vôtre micro sd.
+
 Connecter vôtre micro sd au pc, puis lancer balena etcher ou raspberry imager, pour mon cas le deuxième fois à très bien fonctionné.
+
+Il suffit alors de choisir le fichier ".img.xz" et la micro sd puis de cliquer sur écrire
 ![alt raspberry_imager](./images/raspberryImager.PNG)
 
-## Installation de klipper sur un vieux pc
+Une fois fini, vous un message de succès qui apparaitra.
+
+Si vous souhaitez que vôtre BTT CB1 se connecte au wifi local, il faut ouvrir la partiton **BOOT** créer sur la microsd et éditer le fichier **system.cfg** avec bloc note par exemple, puis modifier les valeur **WIFI_SSID** et **WIFI_PASSWD** par celle de vôtre réseau wifi.
+![alt configuration_wifi](./images/configuration_wifi.PNG)
 
 ## Copie des fichiers de configurations
 
