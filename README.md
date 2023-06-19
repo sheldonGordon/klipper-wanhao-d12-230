@@ -49,7 +49,13 @@ Environ 1 à 2 minutes après votre serveur klipper est prêt.
 
 Pour pouvoir y accéder et commencer à jouer avec, il va falloir vous connecter sur votre box à l'adresse http://192.168.1.1
 
-Et trouver une machine connecter à vôtre réseau avec le nom **BTT-CB1**
+Et trouver une machine connectée à vôtre réseau avec le nom **BTT-CB1** et de relever son adresse IP.
+
+Dans votre Navigateur essayer d'accéder à cette adresse IP, vous devriez avoir cette page qui apparait.
+
+![alt klipper_mainsail](./images/klipper_screen_1.PNG)
+
+Félicitations vous avez installer klipper avec succées.
 ## Copie des fichiers de configurations
 
 ## Modification du fichier de configuration printer.cfg
