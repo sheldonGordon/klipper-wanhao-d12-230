@@ -3,6 +3,14 @@
 Vous trouverez dans ce dépôt l'ensemble des informations nécessaire pour migrer vôtre d12 vers klipper.
 Je suis autodidacte sur le sujet, je réalisé ce document tout seul avec les informations que j'ai pu trouver un peu partout.
 
+Pour des soucis économique j'ai fait le fois de partir sur une carte BTT CB1 au lieu d'un raspberry pi 4, si vous avez fait le même choix que moi vous pouvez suivre l'intégralité des étapes.
+
+Pour les utilisateur de raspberry pi 4 je vous invite à suivre cette [vidéo](https://www.youtube.com/watch?v=Ibz9D00NlO8).
+Mais aussi si vous avez un vieux pc qui traine c'est le moment de le recycler en y installant une distribution Linux (debian, ubuntu, centos, ...)
+puis suivre les instructions sur ce [dépôt](https://github.com/th33xitus/kiauh#-download-and-use-kiauh) pour la partie installation.
+
+Et reprendre à partir de **Copie des fichiers de configurations**
+
 ## Resources pour la création de ce projet
 Maxime de [I3DM.FR](https://i3dm.fr/2023/03/25/klipper-sur-wanhao-d12/)
 La chaine youtube de [Tom's Basement](https://www.youtube.com/@TomsBasement) et sa [playlist sur klipper](https://www.youtube.com/playlist?list=PLG2DUsM4SElSYaGta07jPFdrE_DXlMMff)
@@ -35,6 +43,13 @@ Une fois fini, vous un message de succès qui apparaitra.
 Si vous souhaitez que vôtre BTT CB1 se connecte au wifi local, il faut ouvrir la partiton **BOOT** créer sur la microsd et éditer le fichier **system.cfg** avec bloc note par exemple, puis modifier les valeur **WIFI_SSID** et **WIFI_PASSWD** par celle de vôtre réseau wifi.
 ![alt configuration_wifi](./images/configuration_wifi.PNG)
 
+Vous êtes désormais prêt pour installer la micro sd dans le BTT CB1 et le démarrer.
+
+Environ 1 à 2 minutes après votre serveur klipper est prêt.
+
+Pour pouvoir y accéder et commencer à jouer avec, il va falloir vous connecter sur votre box à l'adresse http://192.168.1.1
+
+Et trouver une machine connecter à vôtre réseau avec le nom **BTT-CB1**
 ## Copie des fichiers de configurations
 
 ## Modification du fichier de configuration printer.cfg
