@@ -9,7 +9,7 @@ La chaine youtube de [Tom's Basement](https://www.youtube.com/@TomsBasement) et 
 
 ## Matériel nécessaire
 
-- Raspberry pi ou une [copie](https://fr.aliexpress.com/item/1005005013419984.html?spm=a2g0o.productlist.main.7.153213b7Jo1tp7&algo_pvid=0d2c2b8c-d1b6-4746-93c1-648abf24327e&algo_exp_id=0d2c2b8c-d1b6-4746-93c1-648abf24327e-3&pdp_npi=3%40dis%21EUR%2164.78%2138.87%21%21%21%21%21%4021227f0f16869838627906783d0745%2112000031344282593%21sea%21FR%21832100120&curPageLogUid=EHmQOG00obII) / ou un vieux pc portable ou fixe
+- [BTT CB1](https://biqu.equipment/collections/control-board/products/pi4b-adapter-v1-0?variant=39847230242914) ou [ou BTT pi v1.2](https://biqu.equipment/products/bigtreetech-btt-pi-v1-2?variant=40326121980002)
 - Micro sd
 - Cable d'origine de l'imprimante USB-B vers USB-A
 
@@ -18,7 +18,14 @@ optionel mais bien pratique
 - un [lot de vis M3](https://www.amazon.fr/gp/product/B0BCYW4YTX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour le USB Input Shaper
 - avoir imprimé les fichier 3mf dans le dossier [stl_adxl](https://github.com/sheldonGordon/klipper-config/tree/main/stl_adxl), pas nécessaire mais c'est mieux
  
-## Installation de klipper sur le raspberry
+## Installation de klipper sur le BTT CB1 ou BTT pi v1.2
+Pour commencer il faut télécharger la dernière image officiel du [CB1](https://github.com/bigtreetech/CB1/releases), et télcharger celle qui commence par "CB1_Debian11_Klipper_kernel..."
+
+Ensuite télécharger [balena etcher](https://etcher.balena.io/) ou [raspberry imager](https://www.raspberrypi.com/software/)
+
+Il est maintenant temps d'écrire l'image du CB1 sur vôtre micro sd.
+Connecter vôtre micro sd au pc, puis lancer balena etcher ou raspberry imager, pour mon cas le deuxième fois à très bien fonctionné.
+![raspberry imager](./images/raspberryImager.png)
 
 ## Installation de klipper sur un vieux pc
 
