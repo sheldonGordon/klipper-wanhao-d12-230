@@ -22,7 +22,8 @@ La chaine youtube de [Tom's Basement](https://www.youtube.com/@TomsBasement) et 
 - Cable d'origine de l'imprimante USB-B vers USB-A
 
 optionel mais bien pratique
-- [USB Input Shaper](https://fr.aliexpress.com/item/1005005411366555.html?spm=a2g0o.order_list.order_list_main.11.c0355e5bKZAxdP&gatewayAdapt=glo2fra) 
+- [USB Input Shaper](https://fr.aliexpress.com/item/1005005411366555.html?spm=a2g0o.order_list.order_list_main.11.c0355e5bKZAxdP&gatewayAdapt=glo2fra)
+- [cable USB C vers USB A coudé](https://www.amazon.fr/SUNGUY-10Gbps-Compatible-Android-Xiaomi-Gris/dp/B0BVFH2FS3/ref=sr_1_14?keywords=cable+usb+c+coud%C3%A9&qid=1687551676&sprefix=cable+usb+c+cou%2Caps%2C116&sr=8-14)
 - un [lot de vis M3](https://www.amazon.fr/gp/product/B0BCYW4YTX/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) pour le USB Input Shaper
 - avoir imprimé les fichier 3mf dans le dossier [stl_adxl](https://github.com/sheldonGordon/klipper-config/tree/main/stl_adxl), pas nécessaire mais c'est mieux
  
