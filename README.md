@@ -57,10 +57,19 @@ Dans votre Navigateur essayer d'accéder à cette adresse IP, vous devriez avoir
 
 Félicitations vous avez installer klipper avec succées.
 ## Copie des fichiers de configurations
+Avant de commencer toutes configurations nous allons mettre à jour nôtre système au complet.
+
+Pour cela aller dans l'onglet ***MACHINE***.
+![alt klipper_mainsail](./images/klipper_screen_2.PNG)
+
+Puis dans la partie ***Update Manager***, cliquer sur ***UPDATE ALL COMPONENT***.
+![alt klipper_mainsail](./images/klipper_screen_2.PNG)
+
+Cela aura pour effet de mettre à jour le système d'exploitation mais aussi l'ensemble des composants de klipper
 
 ## Modification du fichier de configuration printer.cfg
 
-## Réglage des tensiosn de courroies et de galets
+## Réglage des tensions de courroies et de galets
 
 ## Nivellement du bed
 
