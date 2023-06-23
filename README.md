@@ -56,6 +56,9 @@ Dans votre Navigateur essayer d'accéder à cette adresse IP, vous devriez avoir
 ![alt klipper_mainsail](./images/klipper_screen_1.PNG)
 
 Félicitations vous avez installer klipper avec succées.
+Nous avons un message d'erreur qui tout à fait normal, il s'agit d'un problème de configuration, nous allons le régler dans la prochaine partie.
+
+
 ## Copie des fichiers de configurations
 Avant de commencer toutes configurations nous allons mettre à jour nôtre système au complet.
 
@@ -63,9 +66,52 @@ Pour cela aller dans l'onglet ***MACHINE***.
 ![alt klipper_mainsail](./images/klipper_screen_2.PNG)
 
 Puis dans la partie ***Update Manager***, cliquer sur ***UPDATE ALL COMPONENT***.
-![alt klipper_mainsail](./images/klipper_screen_2.PNG)
+![alt klipper_mainsail](./images/klipper_screen_3.PNG)
 
-Cela aura pour effet de mettre à jour le système d'exploitation mais aussi l'ensemble des composants de klipper
+Cela aura pour effet de mettre à jour le système d'exploitation mais aussi l'ensemble des composants de klipper.
+Cependant il se pourrait que ce soit long et que le système ne redémarre (pas d'inquiétude si la connexion est perdu).
+Si nécessaire rafraichir la page, à la fin de toute les mise à jour, vous aurez se message.
+![alt klipper_mainsail](./images/klipper_screen_4.PNG)
+
+
+Nous allons maintenant ajouter nôtre configuration propre à nôtre imprimante.
+Toujours dans l'onglet ***MACHINE***, créer un nouveau fichier et nommé le ***macros.cfg***
+![alt klipper_mainsail](./images/klipper_screen_5.PNG)
+
+Maintenant qu'il est créer nous allons l'édité, c'est très simple cliquer simplement dessus.
+![alt klipper_mainsail](./images/klipper_screen_6.PNG)
+
+Vous devriez avoir un éditeur de texte avec un fichier vide d'ouvert.
+![alt klipper_mainsail](./images/klipper_screen_7.PNG)
+
+Copier l'intégralité du fichier [macros.cfg](macros.cfg) à l'intérieur et cliquer sur ***SAVE & CLOSE***
+![alt klipper_mainsail](./images/klipper_screen_8.PNG)
+
+
+Avec la méthode créer et nommé le fichier ***variables.cfg***
+![alt klipper_mainsail](./images/klipper_screen_9.PNG)
+
+Cliquer dessus pour l'éditer
+![alt klipper_mainsail](./images/klipper_screen_10.PNG)
+
+Copier l'intégralité du fichier [variables.cfg](variables.cfg) à l'intérieur et cliquer sur ***SAVE & CLOSE***
+![alt klipper_mainsail](./images/klipper_screen_11.PNG)
+
+
+Nous allons maintenant modifier l'ancienne configuration de ***printer.cfg*** pour qu'elle correspond à notre imprimante.
+Cliquer sur ***printer.cfg*** pour éditer le fichier
+![alt klipper_mainsail](./images/klipper_screen_12.PNG)
+
+Supprimer l'ancienne configuration
+![alt klipper_mainsail](./images/klipper_screen_13.PNG)
+
+Copier l'intégralité du fichier [printer.cfg](printer.cfg) à l'intérieur et cliquer cette fois sur ***SAVE & RESTART***
+![alt klipper_mainsail](./images/klipper_screen_14.PNG)
+
+Klipper va redémarrer pour prendre en compte notre nouvelle configuration.
+![alt klipper_mainsail](./images/klipper_screen_15.PNG)
+
+Nous avons un message d'information désormais, il nous indique que l'imprimante n'est pas prête, ce qui est normal, nous allons le régler dans la prochaine partie.
 
 ## Modification du fichier de configuration printer.cfg
 
